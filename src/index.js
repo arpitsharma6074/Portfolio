@@ -2,6 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { eachDayOfInterval } from "date-fns";
+
+// 👇 make it globally available for react-github-calendar
+window.dateFns = { eachDayOfInterval };
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);

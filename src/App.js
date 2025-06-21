@@ -17,6 +17,12 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
+import { eachDayOfInterval } from "date-fns";
+window.dateFns = { eachDayOfInterval };
+
+
+
 function App() {
   const [load, upadateLoad] = useState(true);
 
