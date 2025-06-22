@@ -62,8 +62,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
           <h1> Feel free to </h1>
-            <p >
-              
+            <p>
                <span className="purple">Connect </span>
                 with me
             </p>
