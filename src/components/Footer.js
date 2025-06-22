@@ -53,7 +53,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/its_arpit_sharma"
+                href="https://www.instagram.com/its_me_arpitsharma"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
