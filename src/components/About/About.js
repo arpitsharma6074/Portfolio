@@ -6,10 +6,12 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Projects from "../Projects/Projects";
 
 
 function About() {
   return (
+    <section>
     <Container fluid className="about-section">
       <Particle />
       <Container>
@@ -49,6 +51,8 @@ function About() {
         {/* <Github /> */}
       </Container>
     </Container>
+    {/* <Projects /> */}
+    </section>
   );
 }
 

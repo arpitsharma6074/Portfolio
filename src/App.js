@@ -19,6 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 
 import { eachDayOfInterval } from "date-fns";
+import Experience from "./components/Experience/Experience";
 window.dateFns = { eachDayOfInterval };
 
 
@@ -43,6 +44,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />

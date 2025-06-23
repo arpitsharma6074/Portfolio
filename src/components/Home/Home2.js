@@ -8,9 +8,11 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import About from "../About/About";
 
 function Home2() {
   return (
+    <section>
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
@@ -112,6 +114,9 @@ function Home2() {
         </Row>
       </Container>
     </Container>
+  {/* <About /> */}
+  </section>
+
   );
 }
 export default Home2;

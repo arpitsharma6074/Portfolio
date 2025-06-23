@@ -1,9 +1,7 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import geo from "../../Assets/Projects/geo1.jpeg";
-// import editor from "../../Assets/Projects/codeEditor.png";
 import swiggy from "../../Assets/Projects/swiggy2.png";
 import expense from "../../Assets/Projects/expanse2.jpeg";
 

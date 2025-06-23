@@ -4,6 +4,10 @@ import homeLogo from "../../Assets/IMG-20240614-WA0000.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+import ResumeNew from "../Resume/ResumeNew";
+import Experience from "../Experience/Experience";
 
 function Home() {
   return (
@@ -29,6 +33,7 @@ function Home() {
                 <Type />
               </div>
             </Col>
+            
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
@@ -42,6 +47,10 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <About />
+      <Experience />
+      <Projects />
+      <ResumeNew />
     </section>
   );
 }
