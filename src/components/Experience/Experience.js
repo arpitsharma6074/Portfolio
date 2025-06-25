@@ -20,7 +20,8 @@ function Experience() {
               role="Java Developer Intern"
               company="Infosys Springboard"
               duration="Oct 2024 – Dec 2024"
-              description="Worked on an internal expense management system using Spring Boot and React. Developed REST APIs and integrated real-time analytics dashboards. Focused on improving performance and reducing backend response time by 40%."
+              description="Developed a full-stack web application to manage and track user expenses using React and Spring Boot. Contributed to both frontend and backend development, implementing core features, authentication, and data management."
+              // description="Worked on an internal expense management system using Spring Boot and React. Developed REST APIs and integrated real-time analytics dashboards. Focused on improving performance and reducing backend response time by 40%."
             />
           </Col>
 
