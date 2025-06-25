@@ -43,7 +43,7 @@ function Projects() {
               imgPath={swiggy}
               isBlog={false}
               title="SWIGGY_LIKE_WEBAPP"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="Developed a food delivery web application inspired by Swiggy using React for the frontend and integrated it with the Swiggy public API to fetch real-time restaurant and menu data. This project was built as a hands-on exercise to deepen my understanding of React components, state management, routing, and API integration."
               ghLink="https://github.com/arpitsharma6074/SWIGGY_LIKE_WEBAPP"
               // demoLink=""              
             />
