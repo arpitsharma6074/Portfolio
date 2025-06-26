@@ -8,10 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Arpit Sharma </span>
-            from <span className="purple"> Kanpur, India.</span>
-            <br />
-            I am Final year student at Pranveer Singh Institute of Technology(PSIT), Kanpur.
+            Hi, I am <span className="purple">Arpit Sharma </span>
+            {/* from <span className="purple"> Kanpur, India.</span> */}
+            {/* <br /> */}
+            — a passionate Full Stack Developer and Software Engineer who enjoys turning ideas 
+            into real, user-friendly web experiences. I'm currently pursuing a B.Tech in Computer Science(2026) and have gained practical development experience through internships and open-source contributions. I’m always curious, 
+            eager to learn, and open to exciting opportunities and meaningful collaborations.
             <br />
            
             <br />
@@ -30,10 +32,10 @@ function AboutCard() {
             </li>
           </ul> */}
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Arpit Sharma</footer>
+          <footer className="blockquote-footer">Arpit Sharma</footer> */}
         </blockquote>
       </Card.Body>
     </Card>
