@@ -4,6 +4,7 @@ import Particle from "../Particle";
 import geo from "../../Assets/Projects/geo1.jpeg";
 import swiggy from "../../Assets/Projects/swiggy2.png";
 import expense from "../../Assets/Projects/expanse2.jpeg";
+import tic_tac_toe from "../../Assets/Projects/tic-tac-toe.jpeg";
 
 function Projects() {
   return (
@@ -51,7 +52,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={swiggy}
+              imgPath={tic_tac_toe}
               isBlog={false}
               title="Tic-Tac-Toe"
               description="Developed a simple yet interactive Tic Tac Toe game using plain HTML, CSS, and JavaScript. The game features a 3x3 grid where two players take turns to mark X and O. It includes basic win/tie detection logic, turn-based UI updates, and a reset button to replay the game. The project focuses on DOM manipulation, event handling, and implementing game logic without any external libraries or frameworks."

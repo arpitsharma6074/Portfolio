@@ -3,8 +3,8 @@ import homeLogo from "../../Assets/IMG-20240614-WA0000.jpg";
 import Particle from "../Particle";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
-import ResumeNew from "../Resume/ResumeNew";
 import Experience from "../Experience/Experience";
+import ResumeNew from "../Resume/ResumeNew";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -49,7 +49,6 @@ function Home() {
               
             </p>
               </div>
-               
             </Col>
             
 
@@ -61,7 +60,7 @@ function Home() {
                 style={{ maxHeight: "450px" }}
               />
             </Col>
-             <Row>
+            <Row>
               <Col md={12} className="home-about-social">
               <h3> Feel free to reach out!</h3>
                 <ul className="home-about-social-links">
@@ -120,33 +119,3 @@ function Home() {
 }
 
 export default Home;
-
-
-{/* <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Java. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  CyberSecurity.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Springboot</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Redux.js</b>
-              </i> */}

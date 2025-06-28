@@ -1,10 +1,6 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
-// import { eachDayOfInterval } from "date-fns";
-
-// window.dateFns = { eachDayOfInterval };
-
 
 function Github() {
   return (
